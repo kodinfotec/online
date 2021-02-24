@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.iptv.Vip" name="IPTV VIP" version="0.0.4" provider-name="INFOTEC-IPTV"> 
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common"/>
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.simple.downloader"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.common.plugin.cache"/>
+    <import addon="script.module.metahandler"/>
+</requires>
+  
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+    <summary lang="pt"></summary>
+    <description lang="en"></description>
+	<description lang="pt"></description>
+     <disclaimer lang="en"></disclaimer>
+	 <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
