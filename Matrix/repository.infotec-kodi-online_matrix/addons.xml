@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.infotec-kodi-online_matrix" name="[COLOR orange]INFOTEC[/COLOR] [COLOR blue]KODI[/COLOR] [COLOR lime]ONLINE[/COLOR]_[COLOR white]Matrix[/COLOR] Repository" version="19.0" provider-name="Infotec Kodi Online">
+	<requires>
+        
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="[COLOR orange]INFOTEC[/COLOR]-[COLOR blue]KODI[/COLOR]-[COLOR lime]ONLINE[/COLOR]_[COLOR white]Matrix[/COLOR]">
+		    
+		<dir minversion="18.9.1">
+			<info compressed="false">https://raw.githubusercontent.com/infoteconline/repo.infotec.kodi.online/master/Matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/infoteconline/repo.infotec.kodi.online/master/Matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/infoteconline/repo.infotec.kodi.online/find/master/matrix</datadir>
+		</dir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>repositorio Infotec Kodi Online</summary>
+		<description>repositorio oficial Infotec Kodi online - Proibido reproducao sem previa autorizacao</description>
+	</extension>	
+</addon>
+
