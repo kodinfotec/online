@@ -20,6 +20,7 @@ from kodi_six import xbmcgui, xbmcplugin, xbmcvfs
 import sys
 import os
 import shutil
+import ssl
 from six import string_types
 from resources.lib.url_dispatcher import URL_Dispatcher
 from resources.lib import log_utils
@@ -281,6 +282,7 @@ def main(argv=None):
         argv = sys.argv
     queries = kodi.parse_query(sys.argv[2])
     logger.log('Version: |%s| Queries: |%s|' % (kodi.get_version(), queries))
+    logger.log('Running on: |Python %s|%s' % (sys.version, ssl.OPENSSL_VERSION))
     logger.log('Args: |%s|' % (argv))
 
     # don't process params that don't match our url exactly. (e.g. plugin://plugin.video.1channel/extrafanart)
